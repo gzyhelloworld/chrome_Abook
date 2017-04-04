@@ -13,6 +13,6 @@
 怎么使用?
 
 * 下载firstwork.crx,拖进chrome进行安装
-* 如果需要长期使用你需要配置一些东西
+* 如果需要长期使用你需要配置一些东西(chrome.adm已包含在文件，可直接下载)
 
 ![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/az.png)
