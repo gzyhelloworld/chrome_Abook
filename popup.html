@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 400px;
+    height: 300px;
+}
+.null{
+	color:#aaa;
+	text-align: center;
+	font-size:18px;
+	padding-top:30px;
+}
+.active{
+	font-size: 14px;
+	text-align: left;
+}
+.active p{
+	margin:3px 0; line-height: 25px;position: relative;overflow: hidden;height: 25px;
+}
+.active p:hover{box-shadow: 0 1px 0px #55abed;}
+.active i{
+	float: right;width: 16px;height:16px;background: url(/images/eeew.png) left no-repeat;background-size: 100%; cursor: pointer;border: none;margin-top: 4px;
+}
+.active i:hover{
+	background: url(/images/bluew.png) left no-repeat;background-size: 100%;
+}
+.active a{
+	display: inline-block;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+    text-decoration: none;
+    width: 320px;
+}
+.active a:hover{color: #0388eb;}
+#text{height: 210px;overflow-y: auto;font-family: 'Microsoft Yahei';padding: 10px;}
+#input{
+	text-align: center;position: fixed;bottom: 10px;width: 100%;
+}
+#check{
+	position: absolute;height: 20px;line-height: 20px;font-size: 14px;color: #aaa;width: 100%;top: -20px;left: 0;display: none;
+}
+input{line-height: 24px;padding: 0 5px;vertical-align: middle;outline: none;width: 260px;border: 1px solid #aaa;}
+button{outline: none;background-color: #0f88eb;font-family: 'Microsoft Yahei';border: none;color: #eee;height: 28px;padding: 0 20px;line-height: 28px;font-size: 14px;vertical-align: middle;cursor: pointer;}
+</style>
+</head>
+<body>
+<div id="text">
+	<span id='null'>内容为空</span>
+</div>
+<div id="input">
+	<input type="text" name="">
+	<button>添加</button>
+	<div id="check">正在检测网址正确性····</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/txt.js"></script>
+</body>
+</html>
