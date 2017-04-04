@@ -1,3 +1,16 @@
 # chrome_Abook
-一个简单的chrome扩展
-一款作用为临时标签的插件,当你打开很多个网页造成你阅读困难的时候，你需要删除一些标签页但是这些标签页的网站有可能你今天还会访问，这时候你就需要这款插件去临时记忆网址
+## 一个简单的chrome扩展
+
+你什么时候需要它
+
+* 频繁在不同时段浏览同一个网页
+* 打开太多网页,需要删除一些但是需要记忆
+
+它是什么样的
+
+![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/firstpng.png)
+
+怎么使用?
+
+* 下载firstwork.crx,拖进chrome进行安装
+* 如果需要长期使用你需要配置一些东西
