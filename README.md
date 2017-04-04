@@ -15,4 +15,4 @@
 * 下载firstwork.crx,拖进chrome进行安装
 * 如果需要长期使用你需要配置一些东西
 
-![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/anzhaung.pdf)
+![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/az.png)
