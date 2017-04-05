@@ -26,3 +26,13 @@
 页面展示
 
 ![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork2.png)
+
+## 版本升级3.0
+
+新的改变
+1. 用户自主选择保留标签的事件
+2. 提供用户更多的选择,版本3.0是对版本2.0的简化,更加地简介，减少内存使用
+
+页面展示
+
+![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork3.png)
