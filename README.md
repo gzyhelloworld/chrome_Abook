@@ -25,4 +25,4 @@
 
 页面展示
 
-![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork_2.png)
+![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork2.png)
