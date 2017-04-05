@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 400px;
+    height: 280px;
+    -webkit-user-select:none;/*webkit浏览器*/
+}
+.null{
+	color:#aaa;
+	text-align: center;
+	font-size:18px;
+	padding-top:30px;
+}
+.active{
+	font-size: 14px;
+	text-align: left;
+}
+.active span{
+	display: block;height: 25px;line-height: 25px;text-indent: 10px;color: #aaa;font-size: 12px;
+}
+.active p{
+	margin:3px 0; line-height: 25px;position: relative;overflow: hidden;height: 25px;
+}
+.active p:hover{box-shadow: 0 1px 0px #55abed;}
+.active i{
+	float: right;width: 16px;height:16px;background: url(/images/eeew.png) left no-repeat;background-size: 100%; cursor: pointer;border: none;margin-top: 4px;
+}
+.active strong{
+	float: right;margin-right: 15px;cursor: pointer;
+}
+.active i:hover{
+	background: url(/images/bluew.png) left no-repeat;background-size: 100%;
+}
+.active a{
+	display: inline-block;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+    text-decoration: none;
+    width: 320px;
+}
+.active a:hover{color: #0388eb;}
+#text{height: 250px;overflow-y: auto;font-family: 'Microsoft Yahei';padding: 10px;}
+#input{
+	text-align: center;position: fixed;top: 30px;width: 100%;
+}
+#input span{
+	float:left;;line-height: 26px;margin-left: 12px;cursor: pointer;
+}
+#checka{
+	position: absolute;height: 20px;line-height: 20px;font-size: 14px;color: #aaa;width: 100%;top: -20px;left: 0;
+}
+#body{width: 100%;height: 100%;padding-top: 60px;}
+input{line-height: 24px;padding: 0 5px;vertical-align: middle;outline: none;width: 260px;border: 1px solid #aaa;}
+.rc{border: 1px solid #fa113a;}
+button{outline: none;background-color: #0f88eb;font-family: 'Microsoft Yahei';border: none;color: #eee;height: 26px;padding: 0 20px;line-height: 26px;font-size: 14px;vertical-align: middle;cursor: pointer;}
+</style>
+</head>
+<body>
+<div id='body'>
+<div id="text" :class="{null:nulltrue,active:!nulltrue}">
+	<span id='null' v-show="nulltrue">内容为空</span>
+	<smalltxt v-for="(index,item) in txt" :item="item" :index="index" style="color:{{daycolor[item.day-1]}}"></smalltxt>
+</div>
+<div id="input">
+	<input type="text" name="" :class='{rc:redcolor}' @focus="redcolor=false">
+	<button @click="addurl">添加</button>
+	<div id="checka" v-show="check">正在检测网址正确性····</div>
+</div>
+</div>
+<script src="js/vue_min.js"></script>
+<script src="js/newtxt.js"></script>
+</body>
+</html>
