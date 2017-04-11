@@ -1,26 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "即事本",
-    "version": "1.0",
-    "description": "查看今天需要浏览的网站",
-    "icons": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-    },
-    "browser_action": {
-        "default_icon": {
-            "19": "images/icon19.png",
-            "38": "images/icon38.png"
-        },
-        "default_title": "即事本",
-        "default_popup": "popup.html"
-    },
-    "permissions":[
-    "tabs",
-    "activeTab",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ]
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "即事本"
+   },
+   "description": "查看今天需要浏览的网站",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvhJXVXfI28oJPNgzhX/M6yFQo5dcXCKm2bN6YeiTdqnGa6qoJKV995AQdpUz5Xgr3P/0l0/BsBWHXEgkk6Aa8EmHcVEv4YFy9PtEhAi+PVCpw/ZdiDD2GY1S2vp/Ur58gqKCmu/B4RdAckxOBjWofSwKWN6bP2I5j3OscD9XiOYps1DJR/jXoPYEBIZf/bmqWhL+fpr/PFI1QHxrLZObZk6PbHwhx/eBEJvn/6xMYAs4HuMGlfzjLHxFcf8KPALwcLkRnkP284gmv9SGHVNXevpI1qfnBBtdmWVmbfS0DjDXhADjTNPelwkojboGWQ/jk1lCsbvbjfBdXNR2FRQvLwIDAQAB",
+   "manifest_version": 2,
+   "name": "即事本",
+   "permissions": [ "tabs", "activeTab", "storage", "http://*/*", "https://*/*" ],
+   "version": "3.0"
 }
