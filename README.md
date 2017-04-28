@@ -8,7 +8,7 @@
 
 它是什么样的
 
-![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstpng.png)
+![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork3.png)
 
 怎么使用?
 
@@ -17,25 +17,6 @@
 
 ![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/az.png)
 
-## 版本升级2.0
-新的改变
-1. 增加了永久和临时地址的选择,可以保留近期感兴趣的网址
-2. 页面布局的改变,添加地址栏放在上部，让用户更容易添加地址
-3. 编写代码的变化,1.0版本使用Jquery+html,2.0版本使用vue+html
-
-页面展示
-
-![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork2.png)
-
-## 版本升级3.0
-
-新的改变
-1. 用户自主选择保留标签的时间,最高为9天
-2. 提供用户更多的选择,版本3.0是对版本2.0的简化,更加地简洁，减少内存使用
-
-页面展示
-
-![image](https://github.com/gzyhelloworld/chrome_Abook/blob/master/images/firstwork3.png)
 
 ## 用户体验修改
 
